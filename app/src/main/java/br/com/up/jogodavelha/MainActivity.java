@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import res.layout.*;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.actilvity_main);
+        setContentView(R.layout.activity_main);
 
         playerOneScore = findViewById(R.id.playerOneScore);
         playerTwoScore = findViewById(R.id.playerTwoScore);
